@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">TestNVDev</string>
+    <string name="title_activity_maps">Map</string>
+
+    <string name="permission_rationale_location">Доступ к службе определения местоположения требуется, чтобы продемонстрировать функцию мое местоположение , которая показывает ваше текущее местоположение на карте.</string>
+    <string name="permission_required_toast">Location permission is required for this demo.</string>
+    <string name="default_location">Местоположение по умолчанию</string>
+    <string name="default_info_snippet">Места не найдены, так как разрешение на доступ отключено.</string>
+    <string name="option_get_place">Get place</string>
+    <string name="pick_place">Choose a place</string>
+    <string name="message_this_location_is_null">Не определено текущее местоположение. Используется значение по умолчанию</string>
+    <string name="message_send_image">Отправить фото</string>
+
+    <string name="text_view_name_place">Фотографии мест поблизости</string>
+    <string name="dialog">dialog</string>
+    <string name="url_get_places">https://maps.googleapis.com/maps/api/place/nearbysearch/json?</string>
+    <string name="url_get_places_params"><![CDATA[&rankby=distance&type=all&pagetoken=]]></string>
+    <string name="url_get_places_location">location=</string>
+    <string name="url_get_places_param_rankby">rankby=distance</string>
+    <string name="url_get_places_param_type">type=all</string>
+    <string name="error">Error:</string>
+    <string name="json_places_name_array_result">results</string>
+    <string name="url_get_photos">https://maps.googleapis.com/maps/api/place/photo?</string>
+    <string name="url_get_photos_max_width">maxwidth=500</string>
+    <string name="url_get_photos_photoreference"><![CDATA[&photoreference=]]></string>
+    <string name="url_get_key"><![CDATA[&key=]]></string>
+    <string name="not_available">Недоступен</string>
+    <string name="message_little_photo">Не хватает фото для создания коллажа</string>
+    <string name="json_places_name_array_photos">photos</string>
+    <string name="json_places_name_object_photoreference">photo_reference</string>
+    <string name="share_intent_type_image_jpeg">image/jpeg</string>
+    <string name="disconnect">Нет подключения к интернету</string>
+    <string name="location_permission_denied"><![CDATA[<string name=\"location_permission_denied\">Приложению необходимо разрешение на определение местоположения. Повторите попытку и предоставте доступ к отслеживанию местоположения.\\nЕсли разрешение было отклонено навсегда, его можно включить из системных настроек &gt; Apps &gt; \\\'Google Maps API Demos\\\'.</string>]]></string>
+    <string name="get_next_page">next_page_token</string>
+</resources>
